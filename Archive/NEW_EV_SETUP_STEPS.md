@@ -75,7 +75,7 @@ Your installer will now be signed with the TRUE EV certificate!
 
 Check the signature:
 ```powershell
-Get-AuthenticodeSignature "dist\TrueSpan Living Setup 1.0.0.exe" | Format-List Status, StatusMessage
+Get-AuthenticodeSignature "dist\Truespan Neighborhood Setup 1.0.0.exe" | Format-List Status, StatusMessage
 ```
 
 Should show:
